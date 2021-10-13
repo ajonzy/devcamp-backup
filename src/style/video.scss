@@ -1,0 +1,17 @@
+.video-wrapper {
+    .video {
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        button {
+            width: 75px;
+            background-color:  #84f884;
+            border-radius: 3px;
+            border: 1px solid darkgreen;
+
+            &:active {
+                transform: translateY(1px);
+            }
+        }
+    }
+}

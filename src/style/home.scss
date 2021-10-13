@@ -1,0 +1,9 @@
+.home-wrapper {
+    a {
+        margin: 5px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
